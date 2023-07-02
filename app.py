@@ -3,6 +3,7 @@ import tensorflow as tf
 from PIL import Image
 from img_classification import teachable_machine_classification
 st.set_page_config(layout="wide")
+st.divider()
 st.title("Diagnòstic MRI de tumors cerebrals amb IRM")
 st.header("Brain Tumor MRI Classification")
 
