@@ -1,5 +1,4 @@
 import streamlit as st
-import tensorflow as tf
 from PIL import Image
 from img_classification import teachable_machine_classification
 
