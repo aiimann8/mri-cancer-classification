@@ -3,7 +3,7 @@ import tensorflow as tf
 from PIL import Image
 from img_classification import teachable_machine_classification
 st.set_page_config(layout="wide")
-st.divider()
+#st.divider()
 st.title("Diagnòstic MRI de tumors cerebrals amb IRM")
 st.header("Brain Tumor MRI Classification")
 
@@ -25,7 +25,7 @@ if uploaded_file is not None:
         
         
 st.title("                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ")
-st.divider()
+#st.divider()
 st.title("Dades gràfiques del model d'Intel·ligència artificial (100 èpoques, 512 lots i 0,001 learning rate) ")     
 st.header("Matriu de confusió")
 from PIL import Image
