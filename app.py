@@ -28,18 +28,18 @@ st.title("                                                                      
 #st.divider()
 st.title("Dades gràfiques del model d'Intel·ligència artificial (100 èpoques, 512 lots i 0,001 learning rate) ")     
 st.header("Matriu de confusió")
-from PIL import Image
+
 image = Image.open('Matriu de confusió (100 èpoques, 512 lots i 0,001 learning rate).png')
 st.image(image, caption='',use_column_width=False)
 
 st.title("                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ")
 st.header("Precisió per èpoques")
-from PIL import Image
+
 image = Image.open('Accuracy per epoch (100 epochs, 512 batch size, o,001 learning rate).png')
 st.image(image, caption='',use_column_width=False)
 
 st.title("                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ")
 st.header("Pèrdua per èpoques")
-from PIL import Image
+
 image = Image.open('Loss per epoch (100 epochs, 512 batch size, 0,001 learning rate).png')
 st.image(image, caption='',use_column_width=False)
